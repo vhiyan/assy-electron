@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <iframe id="myframe" src="https://dev.sugity.stechoq.com" width="1280px", height="800px"></iframe>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <!-- <script>
+        onload = () => {
+          const webview = document.querySelector('webview')
+          const indicator = document.querySelector('.indicator')
+      
+          const loadstart = () => {
+            indicator.innerText = 'loading...'
+          }
+      
+          const loadstop = () => {
+            indicator.innerText = ''
+          }
+      
+          webview.addEventListener('did-start-loading', loadstart)
+          webview.addEventListener('did-stop-loading', loadstop)
+        }
+      </script> -->
+  </body>
+</html>
